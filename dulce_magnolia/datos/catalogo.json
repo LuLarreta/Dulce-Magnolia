@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bombón de chocolate con relleno de caramelo salado",
+        "tipo": "bombones",
+        "imagen": "bomboncaramelo.jpg",
+        "precio": 205,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Delicioso bombón de chocolate con un suave y dulce relleno de caramelo salado, que combina a la perfección el contraste de sabores.",
+        "calorias": 120
+    },
+    {
+        "id": 2,
+        "nombre": "Trufa de frambuesa",
+        "tipo": "trufas",
+        "imagen": "trufaframbuesa-2.jpg",
+        "precio": 300,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "Una tentación para los amantes de los sabores frutales. Estas trufas están rellenas de una exquisita mezcla de chocolate y frambuesa, creando una explosión de sabor en cada mordisco.",
+        "calorias": 100
+    },
+    {
+        "id": 3,
+        "nombre": "Praliné de avellana",
+        "tipo": "praline",
+        "imagen": "pralineavellana.jpg",
+        "precio": 200,
+        "vencimiento": "2023-12-31",
+        "peso": 20,
+        "detalle": "Una combinación clásica que nunca pasa de moda. Este praliné de avellana está hecho con ingredientes de alta calidad y tiene un sabor cremoso y delicado que te cautivará.",
+        "calorias": 90
+    },
+    {
+        "id": 4,
+        "nombre": "Bombón de chocolate blanco con fresas liofilizadas",
+        "tipo": "bombones",
+        "imagen": "bombonblanco.jpg",
+        "precio": 305,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Una verdadera joya para los amantes del chocolate blanco. Estos bombones están rellenos de fresas liofilizadas que le aportan un toque afrutado y crujiente.",
+        "calorias": 110
+    },
+    {
+        "id": 5,
+        "nombre": "Trufa de café",
+        "tipo": "trufas",
+        "imagen": "trufacafe.jpg",
+        "precio": 205,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "Si eres amante del café, esta trufa te encantará. Con un intenso sabor a café y una textura suave y sedosa, es el regalo perfecto para los amantes de esta bebida aromática.",
+        "calorias": 95
+    },
+    {
+        "id": 6,
+        "nombre": "Bombón de chocolate negro con almendras caramelizadas",
+        "tipo": "bombones",
+        "imagen": "bombonalmendra.jpg",
+        "precio": 200,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Una combinación irresistible de chocolate negro de alta calidad y almendras caramelizadas crujientes. Este bombón es un verdadero placer para los sentidos.",
+        "calorias": 150
+    },
+    {
+        "id": 7,
+        "nombre": "Trufa de chocolate blanco con coco",
+        "tipo": "trufas",
+        "imagen": "trufacoco.jpg",
+        "precio": 205,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "Sumérgete en el paraíso tropical con estas trufas de chocolate blanco y coco. Cada bocado te transportará a una playa paradisíaca con su exquisito sabor y textura suave.",
+        "calorias": 110
+    },
+    {
+        "id": 8,
+        "nombre": "Bombón de chocolate con licor de naranja",
+        "tipo": "bombones",
+        "imagen": "bombonlicornaranja.jpg",
+        "precio": 300,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Un capricho para los paladares más sofisticados. Este bombón combina el intenso sabor del chocolate con un toque de licor de naranja, creando una experiencia deliciosa y lujosa.",
+        "calorias": 120
+    },
+    {
+        "id": 9,
+        "nombre": "Praliné de pistacho",
+        "tipo": "praline",
+        "imagen": "pralinepistachos.jpg",
+        "precio": 205,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "Si eres amante de los sabores más refinados, no puedes dejar de probar este praliné de pistacho. El sabor suave y ligeramente dulce del pistacho se combina perfectamente con el chocolate.",
+        "calorias": 100
+    },
+    {
+        "id": 10,
+        "nombre": "Bombón de chocolate negro con relleno de frutos del bosque",
+        "tipo": "bombones",
+        "imagen": "trufaframbuesa.jpg",
+        "precio": 305,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Una combinación de sabores intensos y frutales en cada bocado. Estos bombones de chocolate negro están rellenos de una mezcla de frutos del bosque que te sorprenderá.",
+        "calorias": 110
+    },
+    {
+        "id": 11,
+        "nombre": "Trufa de caramelo y chocolate",
+        "tipo": "trufas",
+        "imagen": "trufacaramelo.jpg",
+        "precio": 200,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "La combinación perfecta entre el caramelo y el chocolate en una trufa suave y cremosa. Cada mordisco te hará desear más.",
+        "calorias": 95
+    },
+    {
+        "id": 12,
+        "nombre": "Bombón de chocolate blanco con maracuyá",
+        "tipo": "bombones",
+        "imagen": "bombonmaracuya.jpg",
+        "precio": 305,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Déjate seducir por la frescura y acidez del maracuyá en estos deliciosos bombones de chocolate blanco. Una combinación tropical que te transportará a lugares exóticos.",
+        "calorias": 120
+    },
+    {
+        "id": 13,
+        "nombre": "Praliné de nueces pecanas",
+        "tipo": "praline",
+        "imagen": "pralinenueses.jpg",
+        "precio": 205,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "El sabor suave y mantecoso de las nueces pecanas se fusiona con el chocolate en este praliné irresistible. Un regalo perfecto para los amantes de los frutos secos.",
+        "calorias": 100
+    },
+    {
+        "id": 14,
+        "nombre": "Bombón de chocolate negro con naranja confitada",
+        "tipo": "bombones",
+        "imagen": "bombonmazapan.jpg",
+        "precio": 300,
+        "vencimiento": "2023-12-31",
+        "peso": 30,
+        "detalle": "Una combinación clásica y sofisticada de chocolate negro con trozos de naranja confitada. Cada bocado es una explosión de sabores.",
+        "calorias": 110
+    },
+    {
+        "id": 15,
+        "nombre": "Trufa de chocolate con almendras",
+        "tipo": "trufas",
+        "imagen": "bombonturron.jpg",
+        "precio": 200,
+        "vencimiento": "2023-12-31",
+        "peso": 25,
+        "detalle": "Una deliciosa trufa de chocolate rellena de almendras crocantes. Disfruta de la combinación perfecta de texturas y sabores.",
+        "calorias": 90
+    }
+]

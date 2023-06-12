@@ -1,6 +1,12 @@
 <?PHP
 
-require_once "libraries/funciones.php";
+require_once "clases/Conexion.php";
+require_once "clases/Bombones.php";
+require_once "clases/Ingredientes.php";
+require_once "clases/Chocolate.php";
+require_once "clases/Origen.php";
+require_once "clases/TipoChocolate.php";
+
 
 $secciones_validas = [
 //para que en la pestana arriba aparezca el titulo de la seccion en donde estemos
@@ -66,13 +72,13 @@ if (array_key_exists($seccion, $secciones_validas)) {
                 <div class="collapse navbar-collapse justify-content-end " id="barraNavegacion">
                     <ul class="navbar-nav align-items-center">
                         <li class="nav-item my-lg-2"><a class="text-dark text-decoration-none ms-1  ps-1 pe-2 py-2 border_nav  " href="index.php?sec=home">Home</a></li>
-                        <li class="nav-item  my-2"><a class="nav-link  text-dark text-decoration-none ms-1  pe-2  py-2  border_nav" role="button" data-bs-toggle="dropdown" aria-expanded="false"  href="index.php?sec=catalogo" >Catalogo</a>   <ul class="dropdown-menu">
+                        <li class="nav-item dropdown my-2"><a class="nav-link  text-dark text-decoration-none ms-1  pe-2  py-2  border_nav" role="button" data-bs-toggle="dropdown" aria-expanded="false"  href="index.php?sec=catalogo" >Catalogo</a>   <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="index.php?sec=catalogo">Catalogo Completo</a></li>
-            <li><a class="dropdown-item" href="index.php?sec=catalogo&tipo=praline">Praline</a></li>
-            <li><a class="dropdown-item" href="index.php?sec=catalogo&tipo=bombones">Bombones</a></li>
-            <li><a class="dropdown-item" href="index.php?sec=catalogo&tipo=trufas">Trufas</a></li>
+            <li><a class="dropdown-item" href="index.php?sec=catalogo&tipo=3">Praline</a></li>
+            <li><a class="dropdown-item" href="index.php?sec=catalogo&tipo=1">Bombones</a></li>
+            <li><a class="dropdown-item" href="index.php?sec=catalogo&tipo=2">Trufas</a></li>
           </ul> </li>
-                        <li class="nav-item my-2"><a class="text-dark text-decoration-none ms-1 pe-2 py-2  border_nav " href="index.php?sec=compra">Comprar Online</a></li>
+                       
                         <li class="nav-item my-2"><a class="text-dark text-decoration-none ms-1 pe-2  py-2 border_nav" href="index.php?sec=galeria">Galería</a></li>
                         <li class="nav-item my-2"><a class="text-dark text-decoration-none ms-1 pe-2  py-2 border_nav" href="index.php?sec=datos_del_alumno">Quienes Somos</a></li>
                         <li class="nav-item my-2"><a class="text-dark text-decoration-none  ms-1 pe-py-2 me-1 " href="index.php?sec=formulario">Contacto</a></li>

@@ -1,0 +1,35 @@
+<?PHP
+/**
+ * Clase para proveer la coneccion del proyecto
+ */
+class Conexion
+{
+
+    private const DB_SERVER = "localhost";
+    private const DB_USER = "root";
+    private const DB_PASS = "";
+    private const DB_NAME = "prog2_dulce_magnolia";
+
+    private const DB_DSN = "mysql:host=" . self::DB_SERVER . ";dbname=" . self::DB_NAME . ";charset=utf8mb4";
+    private PDO $db;
+
+    public function __construct()
+    {
+        try {
+            $this->db = new PDO(self::DB_DSN, self::DB_USER, self::DB_PASS);
+        } catch (Exception $e) {
+            die('Error al conectar la Base de Datos');
+        }
+    } 
+    
+
+    /**
+     * Devuelve la conexion PDO lista para usar
+     * @return PDO
+     */
+    public function getConexion(): PDO
+    {
+        return $this->db;
+    }
+
+}
